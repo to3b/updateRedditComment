@@ -30,7 +30,7 @@ headers["Authorization"] = f"bearer {token}"
 
 # --- Update Comment ---
 comment_id = os.environ["REDDIT_COMMENT_ID"]  # e.g. t1_xyz123
-new_text = f"This YouTube video has {view_count} views right now!"
+new_text = f"Probably around: {view_count}... definitely not automated ;)"
 
 edit_url = "https://oauth.reddit.com/api/editusertext"
 payload = {
