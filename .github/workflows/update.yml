@@ -2,7 +2,7 @@ name: Update Reddit Comment with YouTube Views
 
 on:
   schedule:
-    - "*/10 * * * *"
+    - cron: "*/10 * * * *"
   workflow_dispatch:       # allow manual runs
 
 jobs:
